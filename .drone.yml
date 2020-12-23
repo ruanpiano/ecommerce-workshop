@@ -5,7 +5,7 @@ steps:
 - name: ads-service-fixed
   image: plugins/docker
   settings:
-  dockerfile: ads-service-fixed/Dockerfile
+    dockerfile: ads-service-fixed/Dockerfile
     repo: ruanmarins96/ads-service-fixed
     username:
       from_secret: docker_username
