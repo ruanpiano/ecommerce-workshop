@@ -18,8 +18,8 @@ if (window.DD_RUM) {
     trackInteractions: true,
     service: 'storedog-ui',
     env: 'ruby-shop',
-    version: 3,
-    allowedTracingOrigins: ["/.*/","/(.*?)/","/*/","/[^\n]+/",window.location.href,window.location.origin],
+    version: 4,
+    allowedTracingOrigins: [window.location.origin],
   });
 
   if (!window._DATADOG_SYNTHETICS_BROWSER) {
